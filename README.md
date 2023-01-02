@@ -12,3 +12,4 @@ Linux commands translator to use in any terminal app in Windows
 ## supported commands
 - clear
 - ls [-la]
+- pwd

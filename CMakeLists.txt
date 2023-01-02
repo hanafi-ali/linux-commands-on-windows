@@ -11,3 +11,4 @@ set(CMAKE_CXX_FLAGS_RELEASE "-Ofast -mtune=native")
 
 add_executable(ls src/ls.cpp)
 add_executable(clear src/clear.cpp)
+add_executable(pwd src/pwd.cpp)
