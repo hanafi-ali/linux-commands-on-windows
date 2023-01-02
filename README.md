@@ -10,8 +10,21 @@ Linux commands translator to use in any terminal app in Windows
 <br />
 
 ## supported commands
-- clear
-- ls [-la]
-- pwd
-- vim (open notepad to edit)
-- cat
+- [x] clear
+- [x] ls [-la]
+- [x] pwd
+- [x] vim (open notepad to edit)
+- [x] cat
+- [ ] man
+- [ ] kill
+- [ ] ps
+- [ ] rm [-r]
+- [ ] mv
+- [ ] ln {-s}
+- [ ] grep [-i]
+- [ ] cp
+- [ ] nohup
+- [ ] top (open task manager)
+- [ ] htop (open task manager)
+- [ ] diff
+- [ ] traceroute
