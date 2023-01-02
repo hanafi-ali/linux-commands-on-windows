@@ -13,3 +13,4 @@ Linux commands translator to use in any terminal app in Windows
 - clear
 - ls [-la]
 - pwd
+- vim (open notepad to edit)
