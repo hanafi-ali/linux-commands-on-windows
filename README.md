@@ -14,3 +14,4 @@ Linux commands translator to use in any terminal app in Windows
 - ls [-la]
 - pwd
 - vim (open notepad to edit)
+- cat
