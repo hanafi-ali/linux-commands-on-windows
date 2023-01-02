@@ -132,6 +132,7 @@ compile_commands.json
 crashlytics-build.properties
 crashlytics.properties
 fabric.properties
+installer.ifp
 moc_*.cpp
 moc_*.h
 mono_crash.*
