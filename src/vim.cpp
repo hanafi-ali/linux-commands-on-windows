@@ -16,7 +16,7 @@ int main(int argc, char* argv[]) noexcept
         return EXIT_FAILURE;
     }
 
-    auto args = std::span(argv, static_cast<size_t>(argc));
+    auto args = span(argv, static_cast<size_t>(argc));
     const string command = string("notepad ") + args[1];
     system(command.data()); // NOLINT
 }
