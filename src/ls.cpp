@@ -11,7 +11,7 @@ int main(int argc, char* argv[]) noexcept
 {
     const vector<string> argList(argv + 1, argv + argc);
     const string args = accumulate(argList.begin(), argList.end(), string(""));
-    string command;
+    string command = "dir";
 
     if (args.find('l') != string::npos) {
         command += " /q";
