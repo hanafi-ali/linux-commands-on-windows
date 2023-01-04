@@ -13,21 +13,21 @@ Linux commands translator to use in any terminal app in Windows, and PHP and JS 
 - [x] c (clear alias)
 - [x] cat
 - [x] clear
+- [x] grep [-i]
+- [x] htop (open task manager)
 - [x] ls [-la]
+- [x] man
 - [x] pwd
+- [x] top (open task manager)
 - [x] vim (open notepad to edit)
 - [ ] cp
 - [ ] diff
-- [ ] grep [-i]
-- [ ] htop (open task manager)
 - [ ] kill
 - [ ] ln {-s}
-- [ ] man
 - [ ] mv
 - [ ] nohup
 - [ ] ps
 - [ ] rm [-r]
-- [ ] top (open task manager)
 - [ ] traceroute
 
 ## supported shortcuts

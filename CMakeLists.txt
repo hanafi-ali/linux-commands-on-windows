@@ -9,12 +9,12 @@ set(CMAKE_CXX_FLAGS "-fno-rtti -fno-exceptions")
 set(CMAKE_CXX_FLAGS_DEBUG "-Wall -Wextra -Wfloat-equal -Wconversion -Wsign-conversion -Warith-conversion -Werror")
 set(CMAKE_CXX_FLAGS_RELEASE "-Ofast -mtune=native")
 
-set(apps c cat clear ls pwd vim
+set(apps c cat clear grep htop ls man pwd top vim
         cc cdm ci cr cu
         ga gcm gd gp gpl gs gsp gst gsw
         ni nr nrb nrd nrs
         pa pam pamr pas pat)
 
-foreach(app IN LISTS apps)
+foreach (app IN LISTS apps)
     add_executable(${app} src/${app}.cpp)
-endforeach()
+endforeach ()
