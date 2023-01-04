@@ -17,6 +17,6 @@ int main(int argc, char* argv[]) noexcept
     }
 
     auto args = span(argv, static_cast<size_t>(argc));
-    const string command = string("notepad ") + args[1];
+    const string command = string("git diff ") + args[1];
     system(command.data()); // NOLINT
 }

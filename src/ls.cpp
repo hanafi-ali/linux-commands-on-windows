@@ -11,18 +11,17 @@ int main(int argc, char* argv[]) noexcept
 {
     const vector<string> argList(argv + 1, argv + argc);
     const string args = accumulate(argList.begin(), argList.end(), string(""));
-    string flags;
+    string command;
 
     if (args.find('l') != string::npos) {
-        flags += " /q";
+        command += " /q";
     } else {
-        flags += " /w";
+        command += " /w";
     }
 
     if (args.find('a') != string::npos) {
-        flags += " /a";
+        command += " /a";
     }
 
-    const string command = string("dir") + flags;
     system(command.data()); // NOLINT
 }

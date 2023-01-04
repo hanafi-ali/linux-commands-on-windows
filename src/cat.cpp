@@ -9,7 +9,7 @@ using std::system;
 
 int main(int argc, char* argv[]) noexcept
 {
-    const int minArgLimit = 2;
+    constexpr int minArgLimit = 2;
 
     if (argc < minArgLimit) {
         cout << "filepath should be pass as argument\n";
