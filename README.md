@@ -10,6 +10,7 @@ Linux commands translator to use in any terminal app in Windows, and PHP and JS 
 <br />
 
 ## supported commands
+- [x] c (clear alias)
 - [x] cat
 - [x] clear
 - [x] ls [-la]
