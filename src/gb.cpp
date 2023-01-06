@@ -1,7 +1,25 @@
 #include <cstdlib>
+#include <string>
+#include <vector>
+using std::string;
 using std::system;
+using std::vector;
 
-int main() noexcept
+int main(int argc, char* argv[]) noexcept
 {
-    system("git branch"); // NOLINT
+    constexpr int minArgLimit = 2;
+
+    if (argc < minArgLimit) {
+        system("git branch"); // NOLINT
+        return EXIT_SUCCESS;
+    }
+
+    const vector<string> argList(argv + 1, argv + argc);
+    string command = string("git branch");
+
+    for (const string& arg: argList) {
+        command += string(" ") + arg;
+    }
+
+    system(command.data()); // NOLINT
 }
