@@ -11,7 +11,7 @@ set(CMAKE_CXX_FLAGS_RELEASE "-Ofast -mtune=native")
 
 set(apps c cat clear grep htop ls man pwd top vim
         cc cdm ci cr cu
-        ga gb gch gcm gd gfp gm gp gpl grh gs gsp gst gsw
+        ga gb gch gcl gcm gd gfp gm gp gpl grh gs gsp gst gsw
         ni nr nrb nrd nrs
         pa pam pamr pas pat)
 

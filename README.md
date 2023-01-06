@@ -39,6 +39,7 @@ Linux commands translator to use in any terminal app in Windows, and PHP and JS 
 - [x] ga (git add .)
 - [x] gb (git branch)
 - [x] gch (git checkout)
+- [x] gcl (git clone)
 - [x] gcm (git commit -m)
 - [x] gd (git diff)
 - [x] gfp (git fetch -p)
