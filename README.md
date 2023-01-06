@@ -51,7 +51,7 @@ Linux commands translator to use in any terminal app in Windows, and PHP and JS 
 - [x] nrd (npm run dev)
 - [x] nrs (npm run serve)
 - [x] pa (php artisan)
-- [x] pam (php artisan migrate --seed)
+- [x] pam (php artisan migrate)
 - [x] pamr (php artisan migrate:rollback --step=1)
 - [x] pas (php artisan serve)
 - [x] pat (php artisan tinker)
